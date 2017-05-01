@@ -28,6 +28,7 @@ h3,h4{
   text-align: center;
 }
 img{
+  cursor: pointer;
   diplay:block;
   margin-left: 10%;
   width:80%;
@@ -73,6 +74,12 @@ img:focus{
 li:hover,
 li:focus{
   filter: blur(2px);
+}
+
+script{
+  z-index: 0;
+  position: absolute;
+
 }
 
 
